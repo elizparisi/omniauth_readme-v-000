@@ -56,5 +56,5 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   
-  get '/sessions/create' to 'sessions#create'
+  get '/auth/facebook/callback' to 'sessions#create'
 end
